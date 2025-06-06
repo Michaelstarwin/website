@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="Description" content="BoldVizByte provides industry-leading services with unmatched reliability and speed.">
+  <title>BoldVizByte</title>
+  <link href="img/loga.png" rel="icon">
+  <link rel="stylesheet" href="feature.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+  <div class="top-left">
+    <i class="fas fa-location-dot"></i> Chennai, India
+    <i class="fas fa-phone"></i> +91 77089 94392
+    <i class="fas fa-envelope"></i> founder.mct@gmail.com
+  </div>
+  <div class="top-right">
+    <a href="https://x.com/BoldVizByte?t=RuZWxS5YesqXm-O5qP2ucQ&s=08"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.facebook.com/share/15r9r3G6kS/"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.linkedin.com/company/micheal-s-creative-tech/"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.instagram.com/boldvizbyte?igsh=MWF0bnNwYmVlbWincw=="><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+</div>
+<section class="hero">
+  <div class="overlay">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/loga.png" alt="BoldVizByte Logo" />
+        <span>BoldVizByte</span>
+      </div>
+
+      <div class="hamburger" id="hamburger" onclick="openMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <div class="close-btn" onclick="closeMenu()">&times;</div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </nav>
+
+    <div class="hero-text">
+      <h1>Features</h1>
+      <p>Home <span>∘</span> Features</p>
+    </div>
+  </div>
+</section>
+
+<script>
+  function openMenu() {
+    document.getElementById("navLinks").classList.add("show");
+    document.getElementById("hamburger").classList.add("hide"); // Hamburger icon-ஐ மறைக்க
+    document.body.style.overflow = "hidden"; // பக்கத்தின் ஸ்க்ரோலை முடக்க
+  }
+
+  function closeMenu() {
+    document.getElementById("navLinks").classList.remove("show");
+    document.getElementById("hamburger").classList.remove("hide"); // Hamburger icon-ஐ காட்ட
+    document.body.style.overflow = "auto"; // பக்கத்தின் ஸ்க்ரோலை மீண்டும் இயக்க
+  }
+</script>
+
+  <!--Feature section-->
+<section class="why-choose-us">
+    <h4 class="section-subtitle">WHY CHOOSE US</h4>
+    <h1 class="section-title">We Are Here to Grow Your<br>Business Exponentially</h1>
+    <div class="services-container">
+      <div class="services-left">
+        <div class="service-card">
+          <div class="icon">⚙️</div>
+          <h3>Logo & Collateral</h3>
+          <p>Craft distinctive logos and business cards that make your brand unforgettable.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">💻</div>
+          <h3>Responsive Web Development</h3>
+          <p>Build fast, SEO-friendly sites that look stunning on every device.</p>
+        </div>
+      </div>
+      <div class="services-image">
+        <img src="img/feature.jpg" alt="Team meeting">
+      </div>
+      <div class="services-right">
+        <div class="service-card">
+          <div class="icon">📱</div>
+          <h3>Social Media Graphics</h3>
+          <p>Engage audiences with on-brand posts, banners, and ads optimized per platform.</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">🖨️</div>
+          <h3>Print & Publication</h3>
+          <p>From brochures to book covers—print materials that captivate and inform.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--feature section End-->
+
+  <!--Footer Section-->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Logo & Description -->
+    <div class="footer-column">
+      <div class="footer-logo">
+        <img src="img/loga.png" alt="BoldVizByte Logo" />
+      <span>BoldVizByte</span>
+      </div>
+      <p class="footer-description">
+        We bring ideas to life through creative and impactful design. Specializing in logos, banners, and all things design, we help brands stand out with visual excellence.
+      </p>
+      <div class="footer-subscribe">
+        <input type="email" placeholder="Your Email" />
+        <button>Sign Up</button>
+      </div>
+    </div>
+
+    <!-- Get in Touch -->
+    <div class="footer-column">
+      <h4>Get In Touch</h4>
+      <hr />
+      <p><i class="fas fa-map-marker-alt"></i> Chennai, India</p>
+      <p><i class="fas fa-envelope"></i> founder.mct@gmail.com</p>
+      <p>
+        <i class="fab fa-whatsapp"></i>
+        <a href="https://wa.me/917708994392" target="_blank">+91 77089 94392</a>
+      </p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/share/15r9r3G6kS/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/BoldVizByte?t=RuZWxS5YesqXm-O5qP2ucQ&s=08"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/micheal-s-creative-tech/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/boldvizbyte?igsh=MWF0bnNwYmVlbWlucw=="><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <hr />
+      <ul>
+        <li><a href="index.html">→ Home</a></li>
+        <li><a href="about.html">→ About Us</a></li>
+        <li><a href="service.html">→ Our Services</a></li>
+        <li><a href="contact.html">→ Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Popular Links -->
+    <div class="footer-column">
+      <h4>Popular Links</h4>
+      <hr />
+      <ul>
+        <li><a href="index.html">→ Home</a></li>
+        <li><a href="about.html">→ About Us</a></li>
+        <li><a href="service.html">→ Our Services</a></li>
+        <li><a href="contact.html">→ Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-bottom">
+    <p>© 2025 BoldVizByte. All Rights Reserved. Designed by <a href="#">BoldVizByte</a></p>
+  </div>
+</footer>
+<!--Footer Section End-->
+</body>
+</html>
